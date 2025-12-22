@@ -14,3 +14,7 @@ You can install the development version from GitHub:
 ``` r
 install.packages("remotes")
 remotes::install_github("takakioka/msdialSE")
+
+#library(msdialSE)
+# se <- load_lipidomics_se("path/to/msdial_alignment.csv")
+# se
