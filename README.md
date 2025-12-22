@@ -1,25 +1,16 @@
-
 # msdialSE
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of msdialSE is to ...
+`msdialSE` is an R package that helps import and handle MS-DIAL outputs as
+`SummarizedExperiment` objects, making it easier to integrate downstream
+analysis and visualization workflows in R.
 
 ## Installation
 
-You can install the development version of msdialSE like so:
+You can install the development version from GitHub:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(msdialSE)
-## basic example code
-```
-
+install.packages("remotes")
+remotes::install_github("takakioka/msdialSE")
